@@ -1,0 +1,238 @@
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body, textarea, input, select, button {
+	color: #333333;
+	font-family: "Microsoft Yahei", "΢���ź�", "����";
+	font-size: 12px;
+}
+
+/*
+ * Global add-ons
+ */
+.sub-header {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+}
+
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+.navbar-fixed-top {
+	border: 0;
+}
+
+/*
+ * Sidebar
+ */
+
+/* Hide for mobile, show later */
+.sidebar {
+	display: none;
+}
+
+@media ( min-width : 320px) {
+	.sidebar {
+		position: fixed;
+		top: 51px;
+		bottom: 0;
+		left: 0;
+		z-index: 1000;
+		display: block;
+		padding: 20px;
+		overflow-x: hidden;
+		overflow-y: auto;
+		/* Scrollable contents if viewport is shorter than content. */
+		background-color: #f5f5f5;
+		border-right: 1px solid #eee;
+	}
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+	margin-right: -21px; /* 20px padding + 1px border */
+	margin-bottom: 20px;
+	margin-left: -20px;
+}
+
+.nav-sidebar>li>a {
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+.nav-sidebar>.active>a, .nav-sidebar>.active>a:hover, .nav-sidebar>.active>a:focus
+	{
+	background-color: #428bca;
+}
+
+.nav-sidebar>.active>a span {
+	color: #fff;
+}
+
+.menu_name {
+	color: #393939;
+	text-decoration: none;
+	font: normal 14px "microsoft yahei", simhei;
+	vertical-align: middle;
+	margin-left: 5px
+}
+
+/*
+ * Main content
+ */
+.main {
+	padding: 0px;
+}
+
+@media ( min-width : 768px) {
+	.main {
+		/* padding-right: 40px;
+		padding-left: 40px; */
+	}
+}
+
+.main .page-header {
+	margin-top: 0;
+}
+
+/*
+ * Placeholder dashboard ideas
+ */
+.placeholders {
+	margin-bottom: 30px;
+	/*   text-align: center; */
+}
+
+.placeholders h4 {
+	margin-bottom: 0;
+}
+
+.placeholder {
+	margin-bottom: 20px;
+}
+
+.placeholder img {
+	display: inline-block;
+	border-radius: 50%;
+}
+
+#footer .wrapper {
+	background: none repeat scroll 0 0 #404348;
+	border-top: 1px solid #828991;
+	line-height: 38px;
+}
+
+#footer .copy {
+	color: #999999;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.table-responsive {
+	min-height: 400px;
+}
+
+.listDiv, .updateDiv, .addDiv {
+	margin-top: 20px;
+}
+/* ====== */
+.logo {
+	width: 110px;
+	height: 30px;
+}
+/****图标***/
+.gis {
+	display: inline-block;
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+	background: url('/static/img/sprites.png') no-repeat -286px -305px;
+}
+
+.overview {
+	display: inline-block;
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+	background: url('/static/img/sprites.png') no-repeat -286px -339px;
+}
+
+.dataanalysis {
+	display: inline-block;
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+	background: url('/static/img/sprites.png') no-repeat -87px -39px;
+}
+
+.needanalysis {
+	display: inline-block;
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+	background: url('/static/img/sprites.png') no-repeat -286px -0px;
+}
+
+.fareanalysis {
+	display: inline-block;
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+	background: url('/static/img/sprites.png') no-repeat -286px -33px;
+}
+
+.reportanalysis {
+	display: inline-block;
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+	background: url('/static/img/sprites.png') no-repeat -0px -157px;
+}
+
+.alarmanalysis {
+	display: inline-block;
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+	background: url('/static/img/sprites.png') no-repeat -286px -101px;
+}
+
+.systemset {
+	display: inline-block;
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+	background: url('/static/img/sprites.png') no-repeat -286px -135px;
+}
+
+.realtimemonitor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+	background: url('/static/img/sprites.png') no-repeat -85px 0;
+}
+
+.deviceanlys {
+	display: inline-block;
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+	background: url('/static/img/sprites.png') no-repeat -87px -78px;
+}
+
+.simulationanlys {
+	display: inline-block;
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+	background: url('/static/img/sprites.png') no-repeat -287px -67px;
+}
+/* ----map- */
+ .navbar-brand{color:#D6000F !important;font-weight:bold;padding:10px 15px !important}
+		 .navbar-link{color:#fff !important}
+		 /* .navbar-link:hover{color: #D6000F !important} */

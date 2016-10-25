@@ -1,0 +1,427 @@
+﻿/* container-index      */
+.header {
+    width: 100%;
+    height: 7%;
+    background: #333333;
+}
+.container-index {
+    width: 100%;
+    height: 90%;
+    background: #EBEDEE;
+}
+.container-footor{
+	height: 2%;
+}
+
+.logo {
+    width: 120px;
+    height: 100%;
+    float: left;
+}
+
+.logo_text {
+    float: left;
+    width: auto;
+    height: 100%;
+    line-height: 100%;
+    font-size: 18pt;
+    font-weight: bold;
+    font-family: 微软雅黑;
+    color: #D6000F;
+    margin-left: 10px;
+    margin-top:5px;
+}
+
+.logo_text1 {
+    float: left;
+    width: auto;
+    height: 100%;
+    line-height: 100%;
+    font-size: 10pt;
+    font-weight: bold;
+    font-family: 微软雅黑;
+    color: #fff;
+    margin-left: 10px;
+    margin-top:5px
+}
+
+.userInfo {
+    width: 200px;
+    height: 100%;
+    float: right;
+    color: #fff;
+    /*border: 1px solid red;*/
+    text-align: right;
+    font-size: 10pt;
+}
+
+.userInfo a 
+{
+        text-decoration: none;
+        color: #fff;
+        font-size: 10pt;
+}
+
+.LogOutIco {
+    display: inline-block;
+    width: 0;
+    height: 100%;
+    background: url('/yikeWeb/images/main/exit.png') no-repeat center 0;
+    vertical-align: middle;
+    margin-bottom:0px
+}
+
+.left {
+    float: left;
+    width: 220px;
+    height: 600px;
+    overflow: auto;
+    border-right: 1px solid #8DB6DF;
+    background: #EBEDEE;
+    overflow-x: hidden;
+    padding-bottom: 30px;
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu_parent {
+    background: url('img/menu_p.png') no-repeat 10px center;
+    height: 30px;
+    width: 220px;
+    /*padding-left: 30px;*/
+    /*text-indent: 30px;*/
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.menu_parent a {
+        color: #000;
+        text-decoration: none;
+}
+
+.menu_child {
+}
+
+.menu_child ul li {
+        background: url('img/menu_c.png') no-repeat 25px center;
+        height: 30px;
+        line-height: 30px;
+        text-indent: 55px;
+        width: 100%;
+        cursor: pointer;
+}
+
+.menu_close {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    background: url('img/st_icon.png') no-repeat left 0;
+    margin-left: 5px;
+    margin-right: 25px;
+}
+
+.menu_open {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    background: url('img/st_icon_open.png') no-repeat center center;
+    margin-left: 5px;
+    margin-right: 25px;
+}
+
+.main_left {
+    float: left;
+    width: 180px;
+    height: 470px;
+    text-align: left;
+    overflow-x: hidden;
+    overflow: hidden;
+    background: #ffffff;
+    border-right: solid 1px #BFBFBF;
+    border-bottom: solid 1px #BFBFBF;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.main_right {
+	margin:5px 0px 0px 190px;
+    text-align: left;
+    height: 100%;
+    overflow: hidden;
+}
+
+.ifrm {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.footor {
+	font-size:12px;
+    font-family: Arial;
+    text-align: center;
+    background-color:#EBEDEE;
+}
+
+/* 导航css */
+ul li {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: list-item;
+}
+
+.menu {
+    width: 180px;
+    padding: 0;
+    margin: 0;
+}
+
+.menu_pa {
+    background-color: transparent;
+}
+
+.menu_pa:hover {
+        background-color: #fff;
+}
+
+.menu_pa_sele {
+    background-color: #3a87ad;
+}
+
+.menu_pa_sele span {
+        color: #fff;
+}
+
+.menu a {
+    text-decoration: none;
+    width: 162px;
+    height: 60px;
+    display: block;
+    padding: 0;
+    margin: 0;
+    padding: 0 0 0 18px;
+    cursor: pointer;
+}
+
+/****图标***/
+.gis {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    background: url('/yikeWeb/images/main/sprites.png') no-repeat -286px -305px;
+}
+
+.overview {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    background: url('/yikeWeb/images/main/sprites.png') no-repeat -286px -339px;
+}
+
+.dataanalysis {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    background: url('/yikeWeb/images/main/sprites.png') no-repeat -87px -39px;
+}
+
+.needanalysis {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    background: url('/yikeWeb/images/main/sprites.png') no-repeat -286px -0px;
+}
+
+.fareanalysis {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    background: url('/yikeWeb/images/main/sprites.png') no-repeat -286px -33px;
+}
+
+.reportanalysis {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    background: url('/yikeWeb/images/main/sprites.png') no-repeat -0px -157px;
+}
+
+.alarmanalysis {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    background: url('/yikeWeb/images/main/sprites.png') no-repeat -286px -101px;
+}
+
+.systemset {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    background: url('/yikeWeb/images/main/sprites.png') no-repeat -286px -135px;
+}
+
+.realtimemonitor {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    background: url('/yikeWeb/images/main/sprites.png') no-repeat -85px 0;
+}
+
+.deviceanlys {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    background: url('/yikeWeb/images/main/sprites.png') no-repeat -87px -78px;
+}
+
+.simulationanlys {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    background: url('/yikeWeb/images/main/sprites.png') no-repeat -287px -67px;
+}
+
+
+.sub_menu_sele {
+    background: url('img/sprites1.png') no-repeat 0px -335px;
+}
+
+.menu_name {
+    height: 60px;
+    line-height: 60px;
+    color: #393939;
+    text-decoration: none;
+    margin: 0 0 0 8px;
+    font: normal 14px/60px "microsoft yahei", simhei;
+    vertical-align: middle;
+}
+
+
+.right {
+    width: auto;
+    overflow: hidden;
+    margin-left: 220px;
+}
+
+#imap {
+    height: 600px;
+}
+/* 导航css end*/
+
+/* map css */
+.map_info_container {
+    width: 150px;
+    height: auto;
+    overflow: hidden;
+    font-family: "microsoft yahei";
+}
+
+.map_info_title{
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    font-size:25px;
+    color:#EEC900;
+    font-family: "microsoft yahei";
+}
+
+.map_info_content {
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+
+
+.map_info_content_text {
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    font-size: 10pt;
+}
+
+
+.map_info_content_val {
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    font-size: 15pt;
+    font-weight: normal;
+    color:#3498DB;
+}
+
+.map_info_toolbar {
+    width: 100px;
+    height: 30px;
+    background: #3498DB;
+    margin-left: 15px;
+    -webkit-border-radius: 5px; /*只支持webkit内核的浏览器*/
+    border-radius: 5px; /*只支持IE内核的浏览器（IE>=7)*/
+    -moz-border-radius: 5px; /*只支持Mozilla内核的浏览器*/
+    text-align: center;
+    line-height: 30px;
+}
+
+.map_info_toolbar a {
+        color: #fff;
+        text-align: center;
+        line-height: 30px;
+        text-decoration: none;
+        font-size: 12pt;
+        font-weight: bold;
+}
+    
+.searchmaptext{
+	 font-family: Verdana, sans-serif; 
+	 font-size:13px; 
+	 width:150px;
+	 height:25px
+}
+.searchmapdiv{
+	margin:10px 0px 0px 40px;
+}
+
+.searchmapbut{
+	cursor:pointer;
+	height:25px
+}   
+    
+    
+/* 圆css   */
+ .circle {
+	float:left;
+	background: none repeat scroll 0 0 #FF3300;
+    border-radius: 20px;
+    color: #FFFFFF;
+    padding:9px 9px;
+}
+.circle2 {
+	float:left;
+	background: none repeat scroll 0 0 #00ff00;
+    border-radius: 20px;
+    color: #FFFFFF;
+     padding:9px 9px;
+    /* margin-left:80px */
+}
+
+
